@@ -2,10 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
-
+func arrayExample() {
 	// Use arrays when we have fixed size
-
 	var num = [3]int{1, 2, 3}
 	Num := [3]int{1, 2, 3}
 	fmt.Println(num[0], Num)

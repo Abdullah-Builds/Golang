@@ -18,4 +18,18 @@ func main() {
 
 	clear(m)
 	fmt.Println(m)
+
+	//if key is not present go does not gives error it gives the value type by default
+	// int -> 0
+	// bool ->false
+	//string -> " "/ empty string
+
+// Safe key Validation Technique 
+	_, status := m["val1"]
+
+	if status {
+		fmt.Println("Exists")
+	}else{
+		fmt.Println("Not Exists")
+	}
 }
