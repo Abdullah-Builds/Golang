@@ -4,6 +4,14 @@ import (
 	"fmt"
 )
 
+type Info struct{
+	name string
+	age int
+}
+type person struct{
+	city string
+	Info
+}
 type Personal_Details struct {
 	name    string
 	age     int
@@ -49,4 +57,15 @@ func main() {
 		native bool
 	 }{"Urdu",false}
      fmt.Println(language)
+
+//=>4
+     var InfoObj = Info{
+		name : "abdullah",
+		age : 21,
+	 } 
+	 var personObj = person{
+         city : "karachi",
+		 Info : InfoObj,
+	 }
+	 fmt.Println(personObj)
 }
