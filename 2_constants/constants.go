@@ -4,7 +4,7 @@ import "fmt"
 
 const name = "khan"
 
-func constantsExample() {
+func main() {
 	const age = 30
 	const Age int = 40
 

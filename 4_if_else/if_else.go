@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func ifElseExample() {
+func main() {
 	// In Go we do not have ternary operators
 	var a int = 22
 	var b int = 3

@@ -1,6 +1,6 @@
 package main
 
-func variablesExample() {
+func main() {
 	// string , int, float32, bool
 	var name = "khan"
 	var Name string = "khan"

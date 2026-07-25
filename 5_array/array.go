@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func arrayExample() {
+func main() {
 	// Use arrays when we have fixed size
 	var num = [3]int{1, 2, 3}
 	Num := [3]int{1, 2, 3}

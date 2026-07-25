@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func slicesExample() {
+func main() {
 	// unintialized slice is nil
 	var num1 []int
 	fmt.Println(num1 == nil)
