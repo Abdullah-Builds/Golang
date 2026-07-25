@@ -1,5 +1,9 @@
 # Go Learning Examples
 
+![Go](https://img.shields.io/badge/Go-1.22%2B-00ADD8?logo=go&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 This repository contains a collection of small Go example programs organized by topic.
 
 ## Structure
